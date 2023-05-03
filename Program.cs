@@ -195,4 +195,6 @@ IDEM SET.
  REUTILIZACION DE CONSTRUCTORES {----,-----,-----} this {-----,------}
  this hace referencia a la misma clase.
 
+ this (reutilizar un constructor que ya este funcionando)
+
 */
