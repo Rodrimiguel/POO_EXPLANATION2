@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oSvdi/HMHiDRPh0AHPoSxEpEHVRDTkFX8KiSlFz55D6v36TdHfIQSTuorPYRb3oaNykHcZ2EIkDGXvpeFtyjYA==",
+  "dgSpecHash": "eDeFOGoYnYw9VZrx0Tm3Y7md/tmcLg7P4Ewsq+onl4VCB7mkyDaeowKl3iSQrBdwIUQX5tecyIUI/7Ga3ge6pw==",
   "success": true,
-  "projectFilePath": "D:\\ISTEA\\POO2023-1C\\ProyClase2\\ProyClase2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Rodrigo\\Desktop\\CLASES OBJETO\\ProyClase2\\ProyClase2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

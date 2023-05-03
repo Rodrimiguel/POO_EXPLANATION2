@@ -1,5 +1,6 @@
 ﻿
 Alumno alumno1 =new Alumno(); 
+// CUANDO HACEMOS EL NEW LLAMAMOS AL CONSTRUCTOR.
 // TIPO ALUMNO1(NOMBRE OBJETO) = NEW ALUMNO (INSTANCIA DE UNA CLASE (LE ASIGNA ESPACIO DE MEMORIA) / DE NUEVO EL TIPO)
 // CREA UNA NUEVA INSTANCIA DE LA CLASE ALUMNO 
 // FORMA CLASICA/ ORIGINAL / ESQUEMA CLASICO.
@@ -23,28 +24,40 @@ alumno1.DNI=222222; //set
 Console.WriteLine(alumno1.DNI); //get
 
 var alumno3=new Alumno(); // new = lLamo al constructor = en este caso no tiene parametros
-Console.WriteLine(alumno3.Apellido);
+Console.WriteLine(alumno3.Apellido); // GET (OBTENGO)
 
-var alumno4=new Alumno("Lucas"); 
+var alumno4=new Alumno("Lucas"); // ESPERA UN STRING, CUANDO EL STRING SE LO ASIGNA AL NOMBRE.
 Console.WriteLine(alumno4.Nombre);
 
 var alumno5=new Alumno(44444);
 Console.WriteLine(alumno5.DNI);
+
+var Alumno20 = new Alumno(456677);
+Console.WriteLine("Numero de documento del Alumno 20: " + Alumno20.DNI);
 
 var alumno6=new Alumno("Micaela","Martinez");
 var alumno7=new Alumno("Luciano","Rosas",32831);
 Console.WriteLine($"nombre: {alumno7.Nombre} apellido {alumno7.Apellido} dni: {alumno7.DNI}");
 
 class Alumno{
-    public Alumno(){
-        Apellido="Rosso"; 
+    public Alumno(){ // PUBLIC Y EL NOMBRE DE LA CLASE // CONSTRUCTOR DEFAULT.
+        Apellido="Rosso"; // CONSTRUCTUR POR DEFAULT LE ASIGNE EL VALOR.
     }
 
-    public Alumno(string nombreinicial){
+    public Alumno(string nombreinicial){// CONSTRUCTOR CON PARAMETRO --  
         Nombre=nombreinicial;
+        /*
+        var alumno4=new Alumno("Lucas"); 
+        Console.WriteLine(alumno4.Nombre);
+        */
     }
+
+    // REUTILIZACION DE CODIGO EN LOS CONSTRUCTORES (DE UNA MANERA MAS RESUMIDA)
+    // UTILIZAMOS EL MODIFICADOR THIS.
+
+    
     public Alumno(int documentooriginal){
-        documento=documentooriginal; // SE PUEDEN ASIGNAR TANTO A CAMPOS COMO PROPIEDADES
+        documento=documentooriginal; // SE PUEDEN ASIGNAR TANTO A CAMPOS (QUE SON PRIVADOS) COMO PROPIEDADES
     }
 
     public Alumno(string nombreinicial,string apellidoinicial){ // OTRO CONSTRUCTOR CON OTRA SOBRECARGA.
